@@ -12,6 +12,7 @@ public class Ravenclaw extends Hogwarts {
         this.creativity = creativity;
     }
     public static void compareHogwartsHouse(Ravenclaw[] ravenclaws,int first, int second){
+
         int sum1 = ravenclaws[first].getIntelligence()+ravenclaws[first].getWisdom()+ravenclaws[first].getWit()+ravenclaws[first].getCreativity();
         int sum2 = ravenclaws[second].getIntelligence()+ravenclaws[second].getWisdom()+ravenclaws[second].getWit()+ravenclaws[second].getCreativity();
         System.out.println("Сравнение двух учеников Когтеврана:");
