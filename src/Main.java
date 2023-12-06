@@ -28,6 +28,7 @@ public class Main {
                 ravenclaws[0], ravenclaws[1], ravenclaws[2],
                 hufflepuffs[0], hufflepuffs[1], hufflepuffs[2]};
 
+
         HogwartsServiceImpl hogwartsService = new HogwartsServiceImpl();
         hogwartsService.compareHogwartsImpl(hogwarts, 0, 10);
         hogwartsService.compareHogwartsHouseImpl(gryffindors, 1, 2);

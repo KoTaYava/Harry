@@ -10,6 +10,7 @@ public class Hufflepuff extends Hogwarts {
         this.honesty = honesty;
     }
     public static void compareHogwartsHouse(Hufflepuff[] hufflepuffs,int first, int second){
+
         int sum1 = hufflepuffs[first].getDiligence()+hufflepuffs[first].getLoyalty()+hufflepuffs[first].getHonesty();
         int sum2 = hufflepuffs[second].getDiligence()+hufflepuffs[second].getLoyalty()+hufflepuffs[second].getHonesty();
         System.out.println("Сравнение двух студентов Пуфендуя :");

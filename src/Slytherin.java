@@ -12,6 +12,7 @@ public class Slytherin extends Hogwarts {
         this.lastForPower = lastForPower;
     }
     public static void compareHogwartsHouse(Slytherin[] slytherins,int first, int second){
+
         int sum1 = slytherins[first].getCunning()+slytherins[first].getDetermination()+slytherins[first].getAmbition()+slytherins[first].getLastForPower();
         int sum2 = slytherins[second].getCunning()+slytherins[second].getDetermination()+slytherins[second].getAmbition()+slytherins[second].getLastForPower();
         System.out.println("Сравнение двух студентов Слизерина:");

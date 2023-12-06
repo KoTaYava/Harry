@@ -11,6 +11,7 @@ public class Gryffindor extends Hogwarts {
     }
 
     public static void compareHogwartsHouse(Gryffindor[] gryffindors, int first, int second) {
+
         int sum1 = gryffindors[first].getBravery() + gryffindors[first].getHonor() + gryffindors[first].getNobility();
         int sum2 = gryffindors[second].getBravery() + gryffindors[second].getHonor() + gryffindors[second].getNobility();
         System.out.println("Сравнение двух студентов Гриффиндора:");
